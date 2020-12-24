@@ -3,8 +3,8 @@ const fs = require("fs");
 class Config {
 	constructor(path) {
 		this.path = path;
-		this.uname = null;
-		this.password = null;
+		this.uname = 15531076579;
+		this.password = zhf123456;
 		this.speed = null;
 		this.pick = null;
 		this.test = null;
@@ -29,7 +29,7 @@ class Config {
 
 	async read(path) {
 		const config = {
-			speed: 2,
+			speed: 1,
 			pick:  false,
 			test: true
 		}
